@@ -4,9 +4,10 @@ const Navbar = () => {
             <h1>0</h1>
             <div className="links">
                 <a href="/home">Home</a>
-                <a href="/info">Home</a>
-                <a href="/">Home</a>
-                <a href="/">Home</a>
+                <a href="/">Logo</a>
+                <a href="/info">Info</a>
+                
+                
             </div>
         </nav>
     );
