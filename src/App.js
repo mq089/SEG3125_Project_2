@@ -7,7 +7,7 @@ function App() {
   
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
 
       <div className='content'>
         <h1>{ title }</h1>
