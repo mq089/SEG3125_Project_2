@@ -278,3 +278,78 @@
   color: #333;
   font-size: x-large;
 }
+
+.form{
+  align-items: center;
+  position: relative;
+  text-align: left;
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: #CCCCCC; 
+  border-color: black;
+}
+
+.label{
+  color: #333;
+}
+
+.select{
+  color: #333;
+  margin-left: 50px;
+}
+
+.label-event{
+  color: #333;
+  margin-left: 147px;
+}
+
+.label-group{
+  color: #333;
+  margin-right: 20px;
+}
+
+.select-group{
+  color: #333;
+}
+
+.book-input{
+  margin-right: 55px;
+  color: #333;
+}
+
+.bronze-label{
+  margin-right: 50px;
+  color: #333;
+}
+
+.silver-label{
+  margin-right: 50px;
+  color: #333;
+}
+
+.gold-label{
+  margin-right: 67px;
+  color: #333;
+}
+
+.diamond-label{
+  margin-right: 67px;
+  color: #333;
+}
+
+.book-btn{
+  text-align: center;
+}
+
+.address{color: #333;
+resize: none;
+}
+
+.check-input-left{
+  margin-right: 55px;
+  color: #333;
+}
+
+.check-input-right{
+  color: #333;
+}

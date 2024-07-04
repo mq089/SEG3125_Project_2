@@ -5,6 +5,7 @@ import Rules from './Rules';
 import Events from './Events';
 import Packages from './Packages';
 import Book from './Book';
+import Checkout from './Checkout';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -36,6 +37,9 @@ function App() {
             </Route>
             <Route exact path="/book">
               <Book />
+            </Route>
+            <Route exact path="/checkout">
+              <Checkout />
             </Route>
           </Switch>
         </div>
