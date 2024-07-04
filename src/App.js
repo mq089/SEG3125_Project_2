@@ -1,19 +1,46 @@
-import Navbar from './Navbar';
+import Navigation from './Navbar';
 import Home from './Home';
+import Info from './Info';
+import Rules from './Rules';
+import Events from './Events';
+import Packages from './Packages';
+import Book from './Book';
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 function App() {
   
-  
+  document.body.style = 'background: #36454f;';
   
   return (
-    <div className="App">
-      <Navbar />
-
-      <div className='content'>
-        <Home />
-
+    <Router>
+      <div className="App">
+        <Navigation/>
+        <div className='content'>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/info">
+              <Info />
+            </Route>
+            <Route exact path="/rules">
+              <Rules />
+            </Route>
+            <Route exact path="/events">
+              <Events />
+            </Route>
+            <Route exact path="/packages">
+              <Packages />
+            </Route>
+            <Route exact path="/book">
+              <Book />
+            </Route>
+          </Switch>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
