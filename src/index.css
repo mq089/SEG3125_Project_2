@@ -4,7 +4,7 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #f2f2f2;
+  color: #333;
 }
 .navbar {
   display: flex;
@@ -227,6 +227,7 @@
 .event-head{
   text-align: center;
   font-weight: bold;
+  color: #f2f2f2;
 }
 
 .package-head{
@@ -242,6 +243,7 @@
 
 .packCol{
   background-color: white; 
+  color: #f2f2f2;
   margin: 10px;
 }
 
@@ -367,18 +369,10 @@ resize: none;
 .friend-header{
   margin-bottom: 20px;
   margin-top: 20px;
+  color: #f2f2f2;
 }
 
 .invite-btn{
   margin-left: 10px;
 }
 
-.react-datepicker__time-list-item:nth-child(even){
-  background-color: #333;
-}
-
-.react-datepicker {
-
-  background-color: #a66;
-  color: #333;
-}
