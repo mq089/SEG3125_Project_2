@@ -84,7 +84,7 @@ const Book = () => {
                                 <br/>
                                 <br/>
                                 
-                                <div className='book-btn'><Button as={Link} to= "book" variant="danger" size='lg' ><h1>CHECKOUT</h1></Button>{' '}   </div>
+                                <div className='book-btn'><Button as={Link} to= "checkout" variant="danger" size='lg' ><h1>CHECKOUT</h1></Button>{' '}   </div>
                                                <br/>
                                 
                             </div>
