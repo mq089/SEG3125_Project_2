@@ -6,8 +6,9 @@ import Events from './Events';
 import Packages from './Packages';
 import Book from './Book';
 import Checkout from './Checkout';
+import Dashboard from './Dashboard';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 
 function App() {
@@ -40,6 +41,9 @@ function App() {
             </Route>
             <Route exact path="/checkout">
               <Checkout />
+            </Route>
+            <Route exact path="/dashboard">
+              <Dashboard />
             </Route>
           </Switch>
         </div>
