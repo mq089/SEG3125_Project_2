@@ -8,7 +8,7 @@ import Book from './Book';
 import Checkout from './Checkout';
 import Dashboard from './Dashboard';
 
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 
 function App() {
